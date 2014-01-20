@@ -1,9 +1,9 @@
-### build
+### Build
 * git clone git@github.com:syncsynchalt/cobertura-groovy-testcase.git
 * cd cobertura-groovy-testcase
 * mvn clean cobertura:cobertura
 
-### symptoms
+### Symptoms
 
 Warning during instrumentation:
 ```
@@ -46,7 +46,7 @@ INFO: Cobertura: Saved information on 2 classes.
 
 Class `GroovyClosureClass` is missing from coverage report.
 
-### versions
+### Versions
 Here are various versions I have installed, if needed to reproduce things:
 
 * `java version "1.7.0_45"`
