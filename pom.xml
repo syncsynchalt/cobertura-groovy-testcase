@@ -13,31 +13,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <prerequisites>
-        <maven>2.0</maven>
-    </prerequisites>
-
     <repositories>
         <repository>
             <id>maven-repo1</id>
             <name>Maven 2 Repository 1</name>
             <url>http://repo1.maven.org/maven2</url>
-            <releases><enabled>true</enabled></releases>
-            <snapshots><enabled>false</enabled></snapshots>
-        </repository>
-
-        <repository>
-            <id>maven-repo2</id>
-            <name>Maven 2 Repository 2</name>
-            <url>http://repo2.maven.org/maven2</url>
-            <releases><enabled>true</enabled></releases>
-            <snapshots><enabled>false</enabled></snapshots>
-        </repository>
-
-        <repository>
-            <id>mvnrepository</id>
-            <name>Mvn Repository</name>
-            <url>http://mvnrepository.com/artifact</url>
             <releases><enabled>true</enabled></releases>
             <snapshots><enabled>false</enabled></snapshots>
         </repository>
@@ -53,15 +33,6 @@
             <id>maven-repo1</id>
             <name>Maven 2 Repository 1</name>
             <url>http://repo1.maven.org/maven2</url>
-            <layout>default</layout>
-            <releases><updatePolicy>never</updatePolicy></releases>
-            <snapshots><enabled>false</enabled></snapshots>
-        </pluginRepository>
-
-        <pluginRepository>
-            <id>maven-repo2</id>
-            <name>Maven 2 Repository 2</name>
-            <url>http://repo2.maven.org/maven2</url>
             <layout>default</layout>
             <releases><updatePolicy>never</updatePolicy></releases>
             <snapshots><enabled>false</enabled></snapshots>
