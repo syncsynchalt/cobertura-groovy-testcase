@@ -17,7 +17,6 @@
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
         <testSourceDirectory>src/test/groovy</testSourceDirectory>
-        <defaultGoal>install</defaultGoal>
     </build>
 
     <dependencies>
